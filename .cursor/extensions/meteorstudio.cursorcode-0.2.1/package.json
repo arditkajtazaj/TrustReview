@@ -1,0 +1,96 @@
+{
+	"name": "cursorcode",
+	"displayName": "CursorCode(Cursor for VSCode)",
+	"description": "a free AI coder with GPT",
+	"version": "0.2.1",
+	"publisher": "meteorstudio",
+	"icon": "assets/extensionIcon.png",
+	"license": "MIT",
+	"repository": {
+		"url": "https://github.com/Meteo-Pig/CursorCode"
+	},
+	"engines": {
+		"vscode": "^1.76.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "vscode-webview-extension-with-react.helloWorld",
+				"title": "Hello World"
+			}
+		],
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "webview",
+					"title": "CursorCode",
+					"icon": "./assets/logo.svg"
+				}
+			]
+		},
+		"views": {
+			"webview": [
+				{
+					"type": "webview",
+					"id": "left-panel-webview",
+					"name": "Webview",
+					"icon": "src/assets/logo.svg"
+				}
+			]
+		},
+		"configuration": {
+			"title": "CursorCodeConfig",
+			"properties": {
+				"cursorcode.accessToken": {
+					"type": "string",
+					"default": "",
+					"description": "登录令牌"
+				},
+				"cursorcode.prompt": {
+					"type": "string",
+					"default": "",
+					"description": "prompt"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"install:all": "npm install && cd webview-ui && npm install",
+		"start:webview": "cd webview-ui && npm run start",
+		"build:webview": "cd webview-ui && npm run build",
+		"test:webview": "cd webview-ui && npm run test",
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"lint": "eslint src --ext ts"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.3",
+		"@types/node": "^12.11.7",
+		"@types/uuid": "^9.0.1",
+		"@types/vscode": "^1.46.0",
+		"@typescript-eslint/eslint-plugin": "^4.14.1",
+		"@typescript-eslint/parser": "^4.14.1",
+		"eslint": "^7.19.0",
+		"glob": "^7.1.6",
+		"prettier": "^2.2.1",
+		"typescript": "^4.1.3",
+		"vscode-test": "^1.5.0"
+	},
+	"dependencies": {
+		"@vscode/codicons": "^0.0.33",
+		"axios": "^1.4.0",
+		"uuid": "^9.0.0"
+	},
+	"__metadata": {
+		"installedTimestamp": 1755193276806,
+		"targetPlatform": "undefined",
+		"size": 3450775
+	}
+}
