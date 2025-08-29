@@ -1,0 +1,36 @@
+0 verbose cli /opt/homebrew/Cellar/node/24.5.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.5.1
+2 info using node@v24.5.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/shkelqimkajtazaj/Downloads/.npmrc
+5 silly config load:file:/Users/shkelqimkajtazaj/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm start
+8 verbose argv "start"
+9 verbose logfile logs-max:10 dir:/Users/shkelqimkajtazaj/.npm/_logs/2025-08-27T20_39_49_305Z-
+10 verbose logfile /Users/shkelqimkajtazaj/.npm/_logs/2025-08-27T20_39_49_305Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 verbose stack Error: Could not read package.json: Error: ENOENT: no such file or directory, open '/Users/shkelqimkajtazaj/Downloads/package.json'
+12 verbose stack     at async open (node:internal/fs/promises:640:25)
+12 verbose stack     at async readFile (node:internal/fs/promises:1277:14)
+12 verbose stack     at async read (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/read-package.js:9:18)
+12 verbose stack     at async PackageJson.load (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:132:31)
+12 verbose stack     at async PackageJson.normalize (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:118:5)
+12 verbose stack     at async #run (/opt/homebrew/lib/node_modules/npm/lib/commands/run.js:90:13)
+12 verbose stack     at async RunScript.exec (/opt/homebrew/lib/node_modules/npm/lib/commands/run.js:44:7)
+12 verbose stack     at async Npm.exec (/opt/homebrew/lib/node_modules/npm/lib/npm.js:208:9)
+12 verbose stack     at async module.exports (/opt/homebrew/lib/node_modules/npm/lib/cli/entry.js:67:5)
+13 error code ENOENT
+14 error syscall open
+15 error path /Users/shkelqimkajtazaj/Downloads/package.json
+16 error errno -2
+17 error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/Users/shkelqimkajtazaj/Downloads/package.json'
+18 error enoent This is related to npm not being able to find a file.
+18 error enoent
+19 verbose cwd /Users/shkelqimkajtazaj/Downloads
+20 verbose os Darwin 24.6.0
+21 verbose node v24.5.0
+22 verbose npm  v11.5.1
+23 verbose exit -2
+24 verbose code -2
+25 error A complete log of this run can be found in: /Users/shkelqimkajtazaj/.npm/_logs/2025-08-27T20_39_49_305Z-debug-0.log

@@ -1,0 +1,93 @@
+0 verbose cli /opt/homebrew/Cellar/node/24.5.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.5.1
+2 info using node@v24.5.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/shkelqimkajtazaj/Downloads/glasstask/.npmrc
+5 silly config load:file:/Users/shkelqimkajtazaj/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm init
+8 verbose argv "init" "--yes"
+9 verbose logfile logs-max:10 dir:/Users/shkelqimkajtazaj/.npm/_logs/2025-08-27T20_35_56_142Z-
+10 verbose logfile /Users/shkelqimkajtazaj/.npm/_logs/2025-08-27T20_35_56_142Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly package data {
+13 silly package data   name: 'glasstask',
+13 silly package data   version: '0.1.0',
+13 silly package data   private: true,
+13 silly package data   dependencies: {
+13 silly package data     '@dhiwise/component-tagger': '^1.0.10',
+13 silly package data     '@radix-ui/react-slot': '^1.2.3',
+13 silly package data     '@reduxjs/toolkit': '^2.6.1',
+13 silly package data     '@tailwindcss/forms': '^0.5.7',
+13 silly package data     '@testing-library/jest-dom': '^5.15.1',
+13 silly package data     '@testing-library/react': '^11.2.7',
+13 silly package data     '@testing-library/user-event': '^12.8.3',
+13 silly package data     axios: '^1.8.4',
+13 silly package data     'class-variance-authority': '^0.7.1',
+13 silly package data     clsx: '^2.1.1',
+13 silly package data     d3: '^7.9.0',
+13 silly package data     'date-fns': '^4.1.0',
+13 silly package data     dotenv: '^16.0.1',
+13 silly package data     'framer-motion': '^10.16.4',
+13 silly package data     'lucide-react': '^0.484.0',
+13 silly package data     react: '^18.2.0',
+13 silly package data     'react-dom': '^18.2.0',
+13 silly package data     'react-helmet': '^6.1.0',
+13 silly package data     'react-hook-form': '^7.55.0',
+13 silly package data     'react-router-dom': '6.0.2',
+13 silly package data     'react-router-hash-link': '^2.4.3',
+13 silly package data     recharts: '^2.15.2',
+13 silly package data     redux: '^5.0.1',
+13 silly package data     'tailwind-merge': '^3.3.1',
+13 silly package data     'tailwindcss-animate': '^1.0.7',
+13 silly package data     'tailwindcss-elevation': '^2.0.0',
+13 silly package data     'tailwindcss-fluid-type': '^2.0.7'
+13 silly package data   },
+13 silly package data   scripts: {
+13 silly package data     start: 'vite',
+13 silly package data     build: 'vite build --sourcemap',
+13 silly package data     serve: 'vite preview'
+13 silly package data   },
+13 silly package data   eslintConfig: { extends: [ 'react-app', 'react-app/jest' ] },
+13 silly package data   browserslist: {
+13 silly package data     production: [ '>0.2%', 'not dead', 'not op_mini all' ],
+13 silly package data     development: [
+13 silly package data       'last 1 chrome version',
+13 silly package data       'last 1 firefox version',
+13 silly package data       'last 1 safari version'
+13 silly package data     ]
+13 silly package data   },
+13 silly package data   devDependencies: {
+13 silly package data     '@tailwindcss/aspect-ratio': '^0.4.2',
+13 silly package data     '@tailwindcss/container-queries': '^0.1.1',
+13 silly package data     '@tailwindcss/line-clamp': '^0.1.0',
+13 silly package data     '@tailwindcss/typography': '^0.5.16',
+13 silly package data     '@vitejs/plugin-react': '4.3.4',
+13 silly package data     autoprefixer: '10.4.2',
+13 silly package data     postcss: '^8.5.6',
+13 silly package data     tailwindcss: '3.4.6',
+13 silly package data     vite: '^7.1.2',
+13 silly package data     'vite-tsconfig-paths': '3.6.0'
+13 silly package data   },
+13 silly package data   description: '',
+13 silly package data   main: 'postcss.config.js',
+13 silly package data   repository: {
+13 silly package data     type: 'git',
+13 silly package data     url: 'git+https://github.com/arditkajtazaj/glass-task.git'
+13 silly package data   },
+13 silly package data   keywords: [],
+13 silly package data   author: '',
+13 silly package data   license: 'ISC',
+13 silly package data   type: 'commonjs',
+13 silly package data   bugs: { url: 'https://github.com/arditkajtazaj/glass-task/issues' },
+13 silly package data   homepage: 'https://github.com/arditkajtazaj/glass-task#readme',
+13 silly package data   Symbol(newline): '\n',
+13 silly package data   Symbol(indent): '  '
+13 silly package data }
+14 verbose cwd /Users/shkelqimkajtazaj/Downloads/glasstask
+15 verbose os Darwin 24.6.0
+16 verbose node v24.5.0
+17 verbose npm  v11.5.1
+18 verbose exit 0
+19 info ok

@@ -1,0 +1,38 @@
+0 verbose cli /opt/homebrew/Cellar/node/24.5.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.5.1
+2 info using node@v24.5.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/shkelqimkajtazaj/Downloads/glasstask/.npmrc
+5 silly config load:file:/Users/shkelqimkajtazaj/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm install nodemon
+8 verbose argv "install" "--save-dev" "nodemon"
+9 verbose logfile logs-max:10 dir:/Users/shkelqimkajtazaj/.npm/_logs/2025-08-27T20_39_24_487Z-
+10 verbose logfile /Users/shkelqimkajtazaj/.npm/_logs/2025-08-27T20_39_24_487Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly logfile done cleaning log files
+14 verbose stack JSONParseError: Unexpected non-whitespace character after JSON at position 9 (line 1 column 10) while parsing near "\"scripts\": {\n  \"dev\": \"react-..."
+14 verbose stack     at /opt/homebrew/lib/node_modules/npm/node_modules/read-package-json-fast/lib/index.js:7:61
+14 verbose stack     at async #initTree (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:271:21)
+14 verbose stack     at async Arborist.buildIdealTree (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:179:7)
+14 verbose stack     at async Promise.all (index 1)
+14 verbose stack     at async Arborist.reify (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:126:5)
+14 verbose stack     at async Install.exec (/opt/homebrew/lib/node_modules/npm/lib/commands/install.js:150:5)
+14 verbose stack     at async Npm.exec (/opt/homebrew/lib/node_modules/npm/lib/npm.js:208:9)
+14 verbose stack     at async module.exports (/opt/homebrew/lib/node_modules/npm/lib/cli/entry.js:67:5)
+15 error code EJSONPARSE
+16 error path /Users/shkelqimkajtazaj/Downloads/glasstask/package.json
+17 error JSON.parse Unexpected non-whitespace character after JSON at position 9 (line 1 column 10) while parsing near "\"scripts\": {\n  \"dev\": \"react-..."
+18 error JSON.parse Failed to parse JSON data.
+18 error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+19 silly unfinished npm timer reify 1756327164593
+20 silly unfinished npm timer reify:loadTrees 1756327164593
+21 silly unfinished npm timer idealTree:init 1756327164593
+22 verbose cwd /Users/shkelqimkajtazaj/Downloads/glasstask
+23 verbose os Darwin 24.6.0
+24 verbose node v24.5.0
+25 verbose npm  v11.5.1
+26 verbose exit 1
+27 verbose code 1
+28 error A complete log of this run can be found in: /Users/shkelqimkajtazaj/.npm/_logs/2025-08-27T20_39_24_487Z-debug-0.log

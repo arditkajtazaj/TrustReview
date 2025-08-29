@@ -1,0 +1,35 @@
+0 verbose cli /opt/homebrew/Cellar/node/24.5.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.5.1
+2 info using node@v24.5.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/shkelqimkajtazaj/.npmrc
+5 silly config load:file:/opt/homebrew/etc/npmrc
+6 verbose title npm start
+7 verbose argv "start"
+8 verbose logfile logs-max:10 dir:/Users/shkelqimkajtazaj/.npm/_logs/2025-08-27T20_39_52_170Z-
+9 verbose logfile /Users/shkelqimkajtazaj/.npm/_logs/2025-08-27T20_39_52_170Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 verbose stack Error: Could not read package.json: Error: ENOENT: no such file or directory, open '/Users/shkelqimkajtazaj/package.json'
+11 verbose stack     at async open (node:internal/fs/promises:640:25)
+11 verbose stack     at async readFile (node:internal/fs/promises:1277:14)
+11 verbose stack     at async read (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/read-package.js:9:18)
+11 verbose stack     at async PackageJson.load (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:132:31)
+11 verbose stack     at async PackageJson.normalize (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:118:5)
+11 verbose stack     at async #run (/opt/homebrew/lib/node_modules/npm/lib/commands/run.js:90:13)
+11 verbose stack     at async RunScript.exec (/opt/homebrew/lib/node_modules/npm/lib/commands/run.js:44:7)
+11 verbose stack     at async Npm.exec (/opt/homebrew/lib/node_modules/npm/lib/npm.js:208:9)
+11 verbose stack     at async module.exports (/opt/homebrew/lib/node_modules/npm/lib/cli/entry.js:67:5)
+12 error code ENOENT
+13 error syscall open
+14 error path /Users/shkelqimkajtazaj/package.json
+15 error errno -2
+16 error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/Users/shkelqimkajtazaj/package.json'
+17 error enoent This is related to npm not being able to find a file.
+17 error enoent
+18 verbose cwd /Users/shkelqimkajtazaj
+19 verbose os Darwin 24.6.0
+20 verbose node v24.5.0
+21 verbose npm  v11.5.1
+22 verbose exit -2
+23 verbose code -2
+24 error A complete log of this run can be found in: /Users/shkelqimkajtazaj/.npm/_logs/2025-08-27T20_39_52_170Z-debug-0.log

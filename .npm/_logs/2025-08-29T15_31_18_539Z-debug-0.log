@@ -1,0 +1,552 @@
+0 verbose cli /opt/homebrew/Cellar/node/24.5.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.5.1
+2 info using node@v24.5.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/shkelqimkajtazaj/Library/Caches/typescript/5.8/.npmrc
+5 silly config load:file:/Users/shkelqimkajtazaj/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm install @types/opentype.js@ts5.8 @types/svg-sprite@ts5.8 @types/d3@ts5.8 @types/react@ts5.8 @types/react-dom@ts5.8 @types/react-helmet@ts5.8 @types/react-router-hash-link@ts5.8
+8 verbose argv "install" "--ignore-scripts" "@types/opentype.js@ts5.8" "@types/svg-sprite@ts5.8" "@types/d3@ts5.8" "@types/react@ts5.8" "@types/react-dom@ts5.8" "@types/react-helmet@ts5.8" "@types/react-router-hash-link@ts5.8" "--save-dev" "--user-agent" "typesInstaller/5.8.2"
+9 verbose logfile logs-max:10 dir:/Users/shkelqimkajtazaj/.npm/_logs/2025-08-29T15_31_18_539Z-
+10 verbose logfile /Users/shkelqimkajtazaj/.npm/_logs/2025-08-29T15_31_18_539Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly logfile done cleaning log files
+14 silly packumentCache corgi:https://registry.npmjs.org/@types%2fopentype.js cache-miss
+15 silly packumentCache corgi:https://registry.npmjs.org/@types%2fsvg-sprite cache-miss
+16 silly packumentCache corgi:https://registry.npmjs.org/@types%2fd3 cache-miss
+17 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact cache-miss
+18 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact-dom cache-miss
+19 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact-helmet cache-miss
+20 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact-router-hash-link cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 165ms (cache updated)
+22 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact-dom set size:undefined disposed:false
+23 http fetch GET 200 https://registry.npmjs.org/@types%2fd3 174ms (cache revalidated)
+24 silly packumentCache corgi:https://registry.npmjs.org/@types%2fd3 set size:156508 disposed:false
+25 http fetch GET 200 https://registry.npmjs.org/@types%2freact 196ms (cache updated)
+26 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+27 http fetch GET 200 https://registry.npmjs.org/@types%2fsvg-sprite 221ms (cache miss)
+28 silly packumentCache corgi:https://registry.npmjs.org/@types%2fsvg-sprite set size:undefined disposed:false
+29 http fetch GET 200 https://registry.npmjs.org/@types%2freact-helmet 228ms (cache revalidated)
+30 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact-helmet set size:61499 disposed:false
+31 http fetch GET 200 https://registry.npmjs.org/@types%2freact-router-hash-link 243ms (cache revalidated)
+32 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact-router-hash-link set size:16289 disposed:false
+33 http fetch GET 200 https://registry.npmjs.org/@types%2fopentype.js 1490ms (cache miss)
+34 silly packumentCache corgi:https://registry.npmjs.org/@types%2fopentype.js set size:undefined disposed:false
+35 silly idealTree buildDeps
+36 silly fetch manifest @types/d3@7.4.3
+37 silly packumentCache full:https://registry.npmjs.org/@types%2fd3 cache-miss
+38 http fetch GET 200 https://registry.npmjs.org/@types%2fd3 111ms (cache revalidated)
+39 silly packumentCache full:https://registry.npmjs.org/@types%2fd3 set size:277815 disposed:false
+40 silly fetch manifest @types/react@19.1.12
+41 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+42 http fetch GET 200 https://registry.npmjs.org/@types%2freact 112ms (cache updated)
+43 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+44 silly fetch manifest @types/react-dom@19.1.9
+45 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-miss
+46 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 68ms (cache updated)
+47 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom set size:undefined disposed:false
+48 silly fetch manifest @types/react-helmet@6.1.11
+49 silly packumentCache full:https://registry.npmjs.org/@types%2freact-helmet cache-miss
+50 http fetch GET 200 https://registry.npmjs.org/@types%2freact-helmet 68ms (cache revalidated)
+51 silly packumentCache full:https://registry.npmjs.org/@types%2freact-helmet set size:141234 disposed:false
+52 silly fetch manifest @types/react-router-hash-link@2.4.9
+53 silly packumentCache full:https://registry.npmjs.org/@types%2freact-router-hash-link cache-miss
+54 http fetch GET 200 https://registry.npmjs.org/@types%2freact-router-hash-link 1297ms (cache revalidated)
+55 silly packumentCache full:https://registry.npmjs.org/@types%2freact-router-hash-link set size:31435 disposed:false
+56 silly fetch manifest @types/svg-sprite@0.0.39
+57 silly packumentCache full:https://registry.npmjs.org/@types%2fsvg-sprite cache-miss
+58 http fetch GET 200 https://registry.npmjs.org/@types%2fsvg-sprite 1272ms (cache miss)
+59 silly packumentCache full:https://registry.npmjs.org/@types%2fsvg-sprite set size:undefined disposed:false
+60 silly fetch manifest @types/opentype.js@1.3.8
+61 silly packumentCache full:https://registry.npmjs.org/@types%2fopentype.js cache-miss
+62 http fetch GET 200 https://registry.npmjs.org/@types%2fopentype.js 1273ms (cache miss)
+63 silly packumentCache full:https://registry.npmjs.org/@types%2fopentype.js set size:undefined disposed:false
+64 silly placeDep ROOT @types/d3@7.4.3 REPLACE for:  want: 7.4.3
+65 silly placeDep ROOT @types/opentype.js@1.3.8 OK for:  want: 1.3.8
+66 silly placeDep ROOT @types/react@19.1.12 REPLACE for:  want: 19.1.12
+67 silly placeDep ROOT @types/react-dom@19.1.9 REPLACE for:  want: 19.1.9
+68 silly placeDep ROOT @types/react-helmet@6.1.11 REPLACE for:  want: 6.1.11
+69 silly placeDep ROOT @types/react-router-hash-link@2.4.9 REPLACE for:  want: 2.4.9
+70 silly placeDep ROOT @types/svg-sprite@0.0.39 OK for:  want: 0.0.39
+71 silly fetch manifest winston@^3.0.0
+72 silly packumentCache full:https://registry.npmjs.org/winston cache-miss
+73 silly fetch manifest @types/vinyl@*
+74 silly packumentCache full:https://registry.npmjs.org/@types%2fvinyl cache-miss
+75 http fetch GET 200 https://registry.npmjs.org/winston 104ms (cache miss)
+76 silly packumentCache full:https://registry.npmjs.org/winston set size:undefined disposed:false
+77 http fetch GET 200 https://registry.npmjs.org/@types%2fvinyl 134ms (cache miss)
+78 silly packumentCache full:https://registry.npmjs.org/@types%2fvinyl set size:undefined disposed:false
+79 silly placeDep ROOT @types/vinyl@2.0.12 OK for: @types/svg-sprite@0.0.39 want: *
+80 silly placeDep ROOT winston@3.17.0 OK for: @types/svg-sprite@0.0.39 want: ^3.0.0
+81 silly fetch manifest @types/expect@^1.20.4
+82 silly packumentCache full:https://registry.npmjs.org/@types%2fexpect cache-miss
+83 silly fetch manifest async@^3.2.3
+84 silly packumentCache full:https://registry.npmjs.org/async cache-miss
+85 silly fetch manifest logform@^2.7.0
+86 silly packumentCache full:https://registry.npmjs.org/logform cache-miss
+87 silly fetch manifest one-time@^1.0.0
+88 silly packumentCache full:https://registry.npmjs.org/one-time cache-miss
+89 silly fetch manifest is-stream@^2.0.0
+90 silly packumentCache full:https://registry.npmjs.org/is-stream cache-miss
+91 silly fetch manifest stack-trace@0.0.x
+92 silly packumentCache full:https://registry.npmjs.org/stack-trace cache-miss
+93 silly fetch manifest triple-beam@^1.3.0
+94 silly packumentCache full:https://registry.npmjs.org/triple-beam cache-miss
+95 silly fetch manifest @colors/colors@^1.6.0
+96 silly packumentCache full:https://registry.npmjs.org/@colors%2fcolors cache-miss
+97 silly fetch manifest readable-stream@^3.4.0
+98 silly packumentCache full:https://registry.npmjs.org/readable-stream cache-miss
+99 http fetch GET 200 https://registry.npmjs.org/is-stream 50ms (cache miss)
+100 silly packumentCache full:https://registry.npmjs.org/is-stream set size:undefined disposed:false
+101 silly fetch manifest @dabh/diagnostics@^2.0.2
+102 silly packumentCache full:https://registry.npmjs.org/@dabh%2fdiagnostics cache-miss
+103 http fetch GET 200 https://registry.npmjs.org/async 53ms (cache miss)
+104 silly packumentCache full:https://registry.npmjs.org/async set size:undefined disposed:false
+105 silly fetch manifest winston-transport@^4.9.0
+106 silly packumentCache full:https://registry.npmjs.org/winston-transport cache-miss
+107 http fetch GET 200 https://registry.npmjs.org/stack-trace 67ms (cache miss)
+108 silly packumentCache full:https://registry.npmjs.org/stack-trace set size:undefined disposed:false
+109 silly fetch manifest safe-stable-stringify@^2.3.1
+110 silly packumentCache full:https://registry.npmjs.org/safe-stable-stringify cache-miss
+111 http fetch GET 200 https://registry.npmjs.org/triple-beam 90ms (cache miss)
+112 silly packumentCache full:https://registry.npmjs.org/triple-beam set size:undefined disposed:false
+113 http fetch GET 200 https://registry.npmjs.org/one-time 91ms (cache miss)
+114 silly packumentCache full:https://registry.npmjs.org/one-time set size:undefined disposed:false
+115 http fetch GET 200 https://registry.npmjs.org/logform 97ms (cache miss)
+116 silly packumentCache full:https://registry.npmjs.org/logform set size:undefined disposed:false
+117 http fetch GET 200 https://registry.npmjs.org/readable-stream 99ms (cache revalidated)
+118 silly packumentCache full:https://registry.npmjs.org/readable-stream set size:261096 disposed:false
+119 http fetch GET 200 https://registry.npmjs.org/@types%2fexpect 134ms (cache miss)
+120 silly packumentCache full:https://registry.npmjs.org/@types%2fexpect set size:undefined disposed:false
+121 http fetch GET 200 https://registry.npmjs.org/safe-stable-stringify 68ms (cache miss)
+122 silly packumentCache full:https://registry.npmjs.org/safe-stable-stringify set size:undefined disposed:false
+123 http fetch GET 200 https://registry.npmjs.org/winston-transport 83ms (cache miss)
+124 silly packumentCache full:https://registry.npmjs.org/winston-transport set size:undefined disposed:false
+125 http fetch GET 200 https://registry.npmjs.org/@colors%2fcolors 187ms (cache miss)
+126 silly packumentCache full:https://registry.npmjs.org/@colors%2fcolors set size:undefined disposed:false
+127 http fetch GET 200 https://registry.npmjs.org/@dabh%2fdiagnostics 177ms (cache miss)
+128 silly packumentCache full:https://registry.npmjs.org/@dabh%2fdiagnostics set size:undefined disposed:false
+129 silly placeDep ROOT @types/expect@1.20.4 OK for: @types/vinyl@2.0.12 want: ^1.20.4
+130 silly placeDep ROOT @colors/colors@1.6.0 OK for: winston@3.17.0 want: ^1.6.0
+131 silly placeDep ROOT @dabh/diagnostics@2.0.3 OK for: winston@3.17.0 want: ^2.0.2
+132 silly placeDep ROOT async@3.2.6 OK for: winston@3.17.0 want: ^3.2.3
+133 silly placeDep ROOT is-stream@2.0.1 OK for: winston@3.17.0 want: ^2.0.0
+134 silly placeDep ROOT logform@2.7.0 OK for: winston@3.17.0 want: ^2.7.0
+135 silly placeDep ROOT one-time@1.0.0 OK for: winston@3.17.0 want: ^1.0.0
+136 silly placeDep ROOT readable-stream@3.6.2 OK for: winston@3.17.0 want: ^3.4.0
+137 silly placeDep ROOT safe-stable-stringify@2.5.0 OK for: winston@3.17.0 want: ^2.3.1
+138 silly placeDep ROOT stack-trace@0.0.10 OK for: winston@3.17.0 want: 0.0.x
+139 silly placeDep ROOT triple-beam@1.4.1 OK for: winston@3.17.0 want: ^1.3.0
+140 silly placeDep ROOT winston-transport@4.9.0 OK for: winston@3.17.0 want: ^4.9.0
+141 silly fetch manifest colorspace@1.1.x
+142 silly packumentCache full:https://registry.npmjs.org/colorspace cache-miss
+143 silly fetch manifest enabled@2.0.x
+144 silly packumentCache full:https://registry.npmjs.org/enabled cache-miss
+145 silly fetch manifest kuler@^2.0.0
+146 silly packumentCache full:https://registry.npmjs.org/kuler cache-miss
+147 silly fetch manifest @types/triple-beam@^1.3.2
+148 silly packumentCache full:https://registry.npmjs.org/@types%2ftriple-beam cache-miss
+149 silly fetch manifest fecha@^4.2.0
+150 silly packumentCache full:https://registry.npmjs.org/fecha cache-miss
+151 silly fetch manifest ms@^2.1.1
+152 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+153 silly fetch manifest fn.name@1.x.x
+154 silly packumentCache full:https://registry.npmjs.org/fn.name cache-miss
+155 silly fetch manifest inherits@^2.0.3
+156 silly packumentCache full:https://registry.npmjs.org/inherits cache-miss
+157 silly fetch manifest string_decoder@^1.1.1
+158 silly packumentCache full:https://registry.npmjs.org/string_decoder cache-miss
+159 http fetch GET 200 https://registry.npmjs.org/inherits 48ms (cache revalidated)
+160 silly packumentCache full:https://registry.npmjs.org/inherits set size:12925 disposed:false
+161 silly fetch manifest util-deprecate@^1.0.1
+162 silly packumentCache full:https://registry.npmjs.org/util-deprecate cache-miss
+163 http fetch GET 200 https://registry.npmjs.org/string_decoder 48ms (cache revalidated)
+164 silly packumentCache full:https://registry.npmjs.org/string_decoder set size:28441 disposed:false
+165 http fetch GET 200 https://registry.npmjs.org/enabled 78ms (cache miss)
+166 silly packumentCache full:https://registry.npmjs.org/enabled set size:undefined disposed:false
+167 http fetch GET 200 https://registry.npmjs.org/ms 78ms (cache updated)
+168 silly packumentCache full:https://registry.npmjs.org/ms set size:undefined disposed:false
+169 http fetch GET 200 https://registry.npmjs.org/fecha 81ms (cache miss)
+170 silly packumentCache full:https://registry.npmjs.org/fecha set size:undefined disposed:false
+171 http fetch GET 200 https://registry.npmjs.org/fn.name 89ms (cache miss)
+172 silly packumentCache full:https://registry.npmjs.org/fn.name set size:undefined disposed:false
+173 http fetch GET 200 https://registry.npmjs.org/util-deprecate 41ms (cache revalidated)
+174 silly packumentCache full:https://registry.npmjs.org/util-deprecate set size:6674 disposed:false
+175 http fetch GET 200 https://registry.npmjs.org/kuler 96ms (cache miss)
+176 silly packumentCache full:https://registry.npmjs.org/kuler set size:undefined disposed:false
+177 http fetch GET 200 https://registry.npmjs.org/colorspace 113ms (cache miss)
+178 silly packumentCache full:https://registry.npmjs.org/colorspace set size:undefined disposed:false
+179 http fetch GET 200 https://registry.npmjs.org/@types%2ftriple-beam 153ms (cache miss)
+180 silly packumentCache full:https://registry.npmjs.org/@types%2ftriple-beam set size:undefined disposed:false
+181 silly placeDep ROOT colorspace@1.1.4 OK for: @dabh/diagnostics@2.0.3 want: 1.1.x
+182 silly placeDep ROOT enabled@2.0.0 OK for: @dabh/diagnostics@2.0.3 want: 2.0.x
+183 silly placeDep ROOT kuler@2.0.0 OK for: @dabh/diagnostics@2.0.3 want: ^2.0.0
+184 silly fetch manifest color@^3.1.3
+185 silly packumentCache full:https://registry.npmjs.org/color cache-miss
+186 silly fetch manifest text-hex@1.0.x
+187 silly packumentCache full:https://registry.npmjs.org/text-hex cache-miss
+188 http fetch GET 200 https://registry.npmjs.org/color 35ms (cache revalidated)
+189 silly packumentCache full:https://registry.npmjs.org/color set size:94626 disposed:false
+190 http fetch GET 200 https://registry.npmjs.org/text-hex 108ms (cache miss)
+191 silly packumentCache full:https://registry.npmjs.org/text-hex set size:undefined disposed:false
+192 silly placeDep ROOT color@3.2.1 OK for: colorspace@1.1.4 want: ^3.1.3
+193 silly placeDep ROOT text-hex@1.0.0 OK for: colorspace@1.1.4 want: 1.0.x
+194 silly fetch manifest color-string@^1.6.0
+195 silly packumentCache full:https://registry.npmjs.org/color-string cache-miss
+196 silly fetch manifest color-convert@^1.9.3
+197 silly packumentCache full:https://registry.npmjs.org/color-convert cache-miss
+198 http fetch GET 200 https://registry.npmjs.org/color-string 39ms (cache revalidated)
+199 silly packumentCache full:https://registry.npmjs.org/color-string set size:76696 disposed:false
+200 http fetch GET 200 https://registry.npmjs.org/color-convert 48ms (cache miss)
+201 silly packumentCache full:https://registry.npmjs.org/color-convert set size:undefined disposed:false
+202 silly placeDep ROOT color-convert@1.9.3 OK for: color@3.2.1 want: ^1.9.3
+203 silly placeDep ROOT color-string@1.9.1 OK for: color@3.2.1 want: ^1.6.0
+204 silly fetch manifest color-name@1.1.3
+205 silly packumentCache full:https://registry.npmjs.org/color-name cache-miss
+206 silly fetch manifest color-name@^1.0.0
+207 silly packumentCache full:https://registry.npmjs.org/color-name cache-miss
+208 silly fetch manifest simple-swizzle@^0.2.2
+209 silly packumentCache full:https://registry.npmjs.org/simple-swizzle cache-miss
+210 http fetch GET 200 https://registry.npmjs.org/color-name 39ms (cache miss)
+211 silly packumentCache full:https://registry.npmjs.org/color-name set size:undefined disposed:false
+212 http fetch GET 200 https://registry.npmjs.org/simple-swizzle 42ms (cache revalidated)
+213 silly packumentCache full:https://registry.npmjs.org/simple-swizzle set size:8442 disposed:false
+214 http fetch GET 200 https://registry.npmjs.org/color-name 42ms (cache miss)
+215 silly packumentCache full:https://registry.npmjs.org/color-name set size:undefined disposed:false
+216 silly placeDep ROOT color-name@1.1.3 OK for: color-convert@1.9.3 want: 1.1.3
+217 silly placeDep ROOT simple-swizzle@0.2.2 OK for: color-string@1.9.1 want: ^0.2.2
+218 silly fetch manifest is-arrayish@^0.3.1
+219 silly packumentCache full:https://registry.npmjs.org/is-arrayish cache-miss
+220 http fetch GET 200 https://registry.npmjs.org/is-arrayish 36ms (cache revalidated)
+221 silly packumentCache full:https://registry.npmjs.org/is-arrayish set size:13422 disposed:false
+222 silly placeDep ROOT @types/triple-beam@1.3.5 OK for: logform@2.7.0 want: ^1.3.2
+223 silly placeDep ROOT fecha@4.2.3 OK for: logform@2.7.0 want: ^4.2.0
+224 silly placeDep ROOT ms@2.1.3 OK for: logform@2.7.0 want: ^2.1.1
+225 silly placeDep ROOT fn.name@1.1.0 OK for: one-time@1.0.0 want: 1.x.x
+226 silly placeDep ROOT inherits@2.0.4 OK for: readable-stream@3.6.2 want: ^2.0.3
+227 silly placeDep ROOT string_decoder@1.3.0 OK for: readable-stream@3.6.2 want: ^1.1.1
+228 silly placeDep ROOT util-deprecate@1.0.2 OK for: readable-stream@3.6.2 want: ^1.0.1
+229 silly fetch manifest safe-buffer@~5.2.0
+230 silly packumentCache full:https://registry.npmjs.org/safe-buffer cache-miss
+231 http fetch GET 200 https://registry.npmjs.org/safe-buffer 42ms (cache revalidated)
+232 silly packumentCache full:https://registry.npmjs.org/safe-buffer set size:41183 disposed:false
+233 silly placeDep ROOT is-arrayish@0.3.2 OK for: simple-swizzle@0.2.2 want: ^0.3.1
+234 silly placeDep ROOT safe-buffer@5.2.1 OK for: string_decoder@1.3.0 want: ~5.2.0
+235 silly reify mark retired [
+235 silly reify   '/Users/shkelqimkajtazaj/Library/Caches/typescript/5.8/node_modules/@types/react'
+235 silly reify ]
+236 silly reify mark retired [
+236 silly reify   '/Users/shkelqimkajtazaj/Library/Caches/typescript/5.8/node_modules/@types/react-dom'
+236 silly reify ]
+237 silly reify moves {
+237 silly reify   '/Users/shkelqimkajtazaj/Library/Caches/typescript/5.8/node_modules/@types/react': '/Users/shkelqimkajtazaj/Library/Caches/typescript/5.8/node_modules/@types/.react-F7KwjMUe',
+237 silly reify   '/Users/shkelqimkajtazaj/Library/Caches/typescript/5.8/node_modules/@types/react-dom': '/Users/shkelqimkajtazaj/Library/Caches/typescript/5.8/node_modules/@types/.react-dom-u2d8Fhu1'
+237 silly reify }
+238 silly audit bulk request {
+238 silly audit   '@aws-crypto/sha256-browser': [ '5.2.0' ],
+238 silly audit   '@smithy/is-array-buffer': [ '2.2.0', '4.0.0' ],
+238 silly audit   '@smithy/util-buffer-from': [ '2.2.0', '4.0.0' ],
+238 silly audit   '@smithy/util-utf8': [ '2.3.0', '4.0.0' ],
+238 silly audit   '@aws-crypto/sha256-js': [ '5.2.0' ],
+238 silly audit   '@aws-crypto/supports-web-crypto': [ '5.2.0' ],
+238 silly audit   '@aws-crypto/util': [ '5.2.0' ],
+238 silly audit   '@aws-sdk/client-sesv2': [ '3.864.0' ],
+238 silly audit   '@aws-sdk/client-sso': [ '3.864.0' ],
+238 silly audit   '@aws-sdk/core': [ '3.864.0' ],
+238 silly audit   '@aws-sdk/credential-provider-env': [ '3.864.0' ],
+238 silly audit   '@aws-sdk/credential-provider-http': [ '3.864.0' ],
+238 silly audit   '@aws-sdk/credential-provider-ini': [ '3.864.0' ],
+238 silly audit   '@aws-sdk/credential-provider-node': [ '3.864.0' ],
+238 silly audit   '@aws-sdk/credential-provider-process': [ '3.864.0' ],
+238 silly audit   '@aws-sdk/credential-provider-sso': [ '3.864.0' ],
+238 silly audit   '@aws-sdk/credential-provider-web-identity': [ '3.864.0' ],
+238 silly audit   '@aws-sdk/middleware-host-header': [ '3.862.0' ],
+238 silly audit   '@aws-sdk/middleware-logger': [ '3.862.0' ],
+238 silly audit   '@aws-sdk/middleware-recursion-detection': [ '3.862.0' ],
+238 silly audit   '@aws-sdk/middleware-sdk-s3': [ '3.864.0' ],
+238 silly audit   '@aws-sdk/middleware-user-agent': [ '3.864.0' ],
+238 silly audit   '@aws-sdk/nested-clients': [ '3.864.0' ],
+238 silly audit   '@aws-sdk/region-config-resolver': [ '3.862.0' ],
+238 silly audit   '@aws-sdk/signature-v4-multi-region': [ '3.864.0' ],
+238 silly audit   '@aws-sdk/token-providers': [ '3.864.0' ],
+238 silly audit   '@aws-sdk/types': [ '3.862.0' ],
+238 silly audit   '@aws-sdk/util-arn-parser': [ '3.804.0' ],
+238 silly audit   '@aws-sdk/util-endpoints': [ '3.862.0' ],
+238 silly audit   '@aws-sdk/util-locate-window': [ '3.804.0' ],
+238 silly audit   '@aws-sdk/util-user-agent-browser': [ '3.862.0' ],
+238 silly audit   '@aws-sdk/util-user-agent-node': [ '3.864.0' ],
+238 silly audit   '@aws-sdk/xml-builder': [ '3.862.0' ],
+238 silly audit   '@smithy/abort-controller': [ '4.0.5' ],
+238 silly audit   '@smithy/config-resolver': [ '4.1.5' ],
+238 silly audit   '@smithy/core': [ '3.8.0' ],
+238 silly audit   '@smithy/credential-provider-imds': [ '4.0.7' ],
+238 silly audit   '@smithy/fetch-http-handler': [ '5.1.1' ],
+238 silly audit   '@smithy/hash-node': [ '4.0.5' ],
+238 silly audit   '@smithy/invalid-dependency': [ '4.0.5' ],
+238 silly audit   '@smithy/middleware-content-length': [ '4.0.5' ],
+238 silly audit   '@smithy/middleware-endpoint': [ '4.1.18' ],
+238 silly audit   '@smithy/middleware-retry': [ '4.1.19' ],
+238 silly audit   '@smithy/middleware-serde': [ '4.0.9' ],
+238 silly audit   '@smithy/middleware-stack': [ '4.0.5' ],
+238 silly audit   '@smithy/node-config-provider': [ '4.1.4' ],
+238 silly audit   '@smithy/node-http-handler': [ '4.1.1' ],
+238 silly audit   '@smithy/property-provider': [ '4.0.5' ],
+238 silly audit   '@smithy/protocol-http': [ '5.1.3' ],
+238 silly audit   '@smithy/querystring-builder': [ '4.0.5' ],
+238 silly audit   '@smithy/querystring-parser': [ '4.0.5' ],
+238 silly audit   '@smithy/service-error-classification': [ '4.0.7' ],
+238 silly audit   '@smithy/shared-ini-file-loader': [ '4.0.5' ],
+238 silly audit   '@smithy/signature-v4': [ '5.1.3' ],
+238 silly audit   '@smithy/smithy-client': [ '4.4.10' ],
+238 silly audit   '@smithy/types': [ '4.3.2' ],
+238 silly audit   '@smithy/url-parser': [ '4.0.5' ],
+238 silly audit   '@smithy/util-base64': [ '4.0.0' ],
+238 silly audit   '@smithy/util-body-length-browser': [ '4.0.0' ],
+238 silly audit   '@smithy/util-body-length-node': [ '4.0.0' ],
+238 silly audit   '@smithy/util-config-provider': [ '4.0.0' ],
+238 silly audit   '@smithy/util-defaults-mode-browser': [ '4.0.26' ],
+238 silly audit   '@smithy/util-defaults-mode-node': [ '4.0.26' ],
+238 silly audit   '@smithy/util-endpoints': [ '3.0.7' ],
+238 silly audit   '@smithy/util-hex-encoding': [ '4.0.0' ],
+238 silly audit   '@smithy/util-middleware': [ '4.0.5' ],
+238 silly audit   '@smithy/util-retry': [ '4.0.7' ],
+238 silly audit   '@smithy/util-stream': [ '4.2.4' ],
+238 silly audit   '@smithy/util-uri-escape': [ '4.0.0' ],
+238 silly audit   '@types/bcrypt': [ '6.0.0' ],
+238 silly audit   '@types/body-parser': [ '1.19.6' ],
+238 silly audit   '@types/connect': [ '3.4.38' ],
+238 silly audit   '@types/cors': [ '2.8.19' ],
+238 silly audit   '@types/d3-array': [ '3.2.1' ],
+238 silly audit   '@types/d3-axis': [ '3.0.6' ],
+238 silly audit   '@types/d3-brush': [ '3.0.6' ],
+238 silly audit   '@types/d3-chord': [ '3.0.6' ],
+238 silly audit   '@types/d3-color': [ '3.1.3' ],
+238 silly audit   '@types/d3-contour': [ '3.0.6' ],
+238 silly audit   '@types/d3-delaunay': [ '6.0.4' ],
+238 silly audit   '@types/d3-dispatch': [ '3.0.7' ],
+238 silly audit   '@types/d3-drag': [ '3.0.7' ],
+238 silly audit   '@types/d3-dsv': [ '3.0.7' ],
+238 silly audit   '@types/d3-ease': [ '3.0.2' ],
+238 silly audit   '@types/d3-fetch': [ '3.0.7' ],
+238 silly audit   '@types/d3-force': [ '3.0.10' ],
+238 silly audit   '@types/d3-format': [ '3.0.4' ],
+238 silly audit   '@types/d3-geo': [ '3.1.0' ],
+238 silly audit   '@types/d3-hierarchy': [ '3.1.7' ],
+238 silly audit   '@types/d3-interpolate': [ '3.0.4' ],
+238 silly audit   '@types/d3-path': [ '3.1.1' ],
+238 silly audit   '@types/d3-polygon': [ '3.0.2' ],
+238 silly audit   '@types/d3-quadtree': [ '3.0.6' ],
+238 silly audit   '@types/d3-random': [ '3.0.3' ],
+238 silly audit   '@types/d3-scale': [ '4.0.9' ],
+238 silly audit   '@types/d3-scale-chromatic': [ '3.1.0' ],
+238 silly audit   '@types/d3-selection': [ '3.0.11' ],
+238 silly audit   '@types/d3-shape': [ '3.1.7' ],
+238 silly audit   '@types/d3-time': [ '3.0.4' ],
+238 silly audit   '@types/d3-time-format': [ '4.0.3' ],
+238 silly audit   '@types/d3-timer': [ '3.0.2' ],
+238 silly audit   '@types/d3-transition': [ '3.0.9' ],
+238 silly audit   '@types/d3-zoom': [ '3.0.8' ],
+238 silly audit   '@types/estree': [ '1.0.8' ],
+238 silly audit   '@types/express': [ '5.0.3' ],
+238 silly audit   '@types/express-serve-static-core': [ '5.0.7' ],
+238 silly audit   '@types/geojson': [ '7946.0.16' ],
+238 silly audit   '@types/history': [ '4.7.11' ],
+238 silly audit   '@types/http-errors': [ '2.0.5' ],
+238 silly audit   '@types/jsonwebtoken': [ '9.0.10' ],
+238 silly audit   '@types/less': [ '3.0.8' ],
+238 silly audit   '@types/lodash': [ '4.17.20' ],
+238 silly audit   '@types/mime': [ '1.3.5' ],
+238 silly audit   '@types/ms': [ '2.1.0' ],
+238 silly audit   '@types/node': [ '24.2.1' ],
+238 silly audit   '@types/nodemailer': [ '7.0.1' ],
+238 silly audit   '@types/qs': [ '6.14.0' ],
+238 silly audit   '@types/range-parser': [ '1.2.7' ],
+238 silly audit   '@types/react-router': [ '5.1.20' ],
+238 silly audit   '@types/react-router-dom': [ '5.3.3' ],
+238 silly audit   '@types/send': [ '0.17.5' ],
+238 silly audit   '@types/serve-static': [ '1.15.8' ],
+238 silly audit   '@types/stylus': [ '0.48.43' ],
+238 silly audit   '@types/uuid': [ '9.0.8' ],
+238 silly audit   bowser: [ '2.12.0' ],
+238 silly audit   csstype: [ '3.1.3' ],
+238 silly audit   'fast-xml-parser': [ '5.2.5' ],
+238 silly audit   strnum: [ '2.1.1' ],
+238 silly audit   tslib: [ '2.8.1' ],
+238 silly audit   'types-registry': [ '0.1.735' ],
+238 silly audit   'undici-types': [ '7.10.0' ],
+238 silly audit   uuid: [ '9.0.1' ],
+238 silly audit   '@types/d3': [ '7.4.3' ],
+238 silly audit   '@types/opentype.js': [ '1.3.8' ],
+238 silly audit   '@types/react': [ '19.1.12' ],
+238 silly audit   '@types/react-dom': [ '19.1.9' ],
+238 silly audit   '@types/react-helmet': [ '6.1.11' ],
+238 silly audit   '@types/react-router-hash-link': [ '2.4.9' ],
+238 silly audit   '@types/svg-sprite': [ '0.0.39' ],
+238 silly audit   '@types/vinyl': [ '2.0.12' ],
+238 silly audit   winston: [ '3.17.0' ],
+238 silly audit   '@types/expect': [ '1.20.4' ],
+238 silly audit   '@colors/colors': [ '1.6.0' ],
+238 silly audit   '@dabh/diagnostics': [ '2.0.3' ],
+238 silly audit   async: [ '3.2.6' ],
+238 silly audit   'is-stream': [ '2.0.1' ],
+238 silly audit   logform: [ '2.7.0' ],
+238 silly audit   'one-time': [ '1.0.0' ],
+238 silly audit   'readable-stream': [ '3.6.2' ],
+238 silly audit   'safe-stable-stringify': [ '2.5.0' ],
+238 silly audit   'stack-trace': [ '0.0.10' ],
+238 silly audit   'triple-beam': [ '1.4.1' ],
+238 silly audit   'winston-transport': [ '4.9.0' ],
+238 silly audit   colorspace: [ '1.1.4' ],
+238 silly audit   enabled: [ '2.0.0' ],
+238 silly audit   kuler: [ '2.0.0' ],
+238 silly audit   color: [ '3.2.1' ],
+238 silly audit   'text-hex': [ '1.0.0' ],
+238 silly audit   'color-convert': [ '1.9.3' ],
+238 silly audit   'color-string': [ '1.9.1' ],
+238 silly audit   'color-name': [ '1.1.3' ],
+238 silly audit   'simple-swizzle': [ '0.2.2' ],
+238 silly audit   '@types/triple-beam': [ '1.3.5' ],
+238 silly audit   fecha: [ '4.2.3' ],
+238 silly audit   ms: [ '2.1.3' ],
+238 silly audit   'fn.name': [ '1.1.0' ],
+238 silly audit   inherits: [ '2.0.4' ],
+238 silly audit   string_decoder: [ '1.3.0' ],
+238 silly audit   'util-deprecate': [ '1.0.2' ],
+238 silly audit   'is-arrayish': [ '0.3.2' ],
+238 silly audit   'safe-buffer': [ '5.2.1' ]
+238 silly audit }
+239 http cache safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz 0ms (cache hit)
+240 http cache util-deprecate@https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz 0ms (cache hit)
+241 http cache is-arrayish@https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.3.2.tgz 0ms (cache hit)
+242 http cache string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz 0ms (cache hit)
+243 http cache inherits@https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz 0ms (cache hit)
+244 http cache ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 0ms (cache hit)
+245 http cache fn.name@https://registry.npmjs.org/fn.name/-/fn.name-1.1.0.tgz 0ms (cache hit)
+246 http cache @types/triple-beam@https://registry.npmjs.org/@types/triple-beam/-/triple-beam-1.3.5.tgz 0ms (cache hit)
+247 http cache fecha@https://registry.npmjs.org/fecha/-/fecha-4.2.3.tgz 0ms (cache hit)
+248 http cache simple-swizzle@https://registry.npmjs.org/simple-swizzle/-/simple-swizzle-0.2.2.tgz 0ms (cache hit)
+249 http cache color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz 0ms (cache hit)
+250 http cache color-convert@https://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz 0ms (cache hit)
+251 http cache color-string@https://registry.npmjs.org/color-string/-/color-string-1.9.1.tgz 0ms (cache hit)
+252 http cache text-hex@https://registry.npmjs.org/text-hex/-/text-hex-1.0.0.tgz 0ms (cache hit)
+253 http cache color@https://registry.npmjs.org/color/-/color-3.2.1.tgz 0ms (cache hit)
+254 http cache kuler@https://registry.npmjs.org/kuler/-/kuler-2.0.0.tgz 0ms (cache hit)
+255 http cache enabled@https://registry.npmjs.org/enabled/-/enabled-2.0.0.tgz 0ms (cache hit)
+256 http cache colorspace@https://registry.npmjs.org/colorspace/-/colorspace-1.1.4.tgz 0ms (cache hit)
+257 http cache winston-transport@https://registry.npmjs.org/winston-transport/-/winston-transport-4.9.0.tgz 0ms (cache hit)
+258 http cache stack-trace@https://registry.npmjs.org/stack-trace/-/stack-trace-0.0.10.tgz 0ms (cache hit)
+259 http cache readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz 0ms (cache hit)
+260 http cache triple-beam@https://registry.npmjs.org/triple-beam/-/triple-beam-1.4.1.tgz 0ms (cache hit)
+261 http cache safe-stable-stringify@https://registry.npmjs.org/safe-stable-stringify/-/safe-stable-stringify-2.5.0.tgz 0ms (cache hit)
+262 http cache logform@https://registry.npmjs.org/logform/-/logform-2.7.0.tgz 0ms (cache hit)
+263 http cache is-stream@https://registry.npmjs.org/is-stream/-/is-stream-2.0.1.tgz 0ms (cache hit)
+264 http cache one-time@https://registry.npmjs.org/one-time/-/one-time-1.0.0.tgz 0ms (cache hit)
+265 http cache async@https://registry.npmjs.org/async/-/async-3.2.6.tgz 0ms (cache hit)
+266 http cache @dabh/diagnostics@https://registry.npmjs.org/@dabh/diagnostics/-/diagnostics-2.0.3.tgz 0ms (cache hit)
+267 http cache winston@https://registry.npmjs.org/winston/-/winston-3.17.0.tgz 0ms (cache hit)
+268 http cache @types/vinyl@https://registry.npmjs.org/@types/vinyl/-/vinyl-2.0.12.tgz 0ms (cache hit)
+269 http cache @types/svg-sprite@https://registry.npmjs.org/@types/svg-sprite/-/svg-sprite-0.0.39.tgz 0ms (cache hit)
+270 http cache @types/opentype.js@https://registry.npmjs.org/@types/opentype.js/-/opentype.js-1.3.8.tgz 0ms (cache hit)
+271 http cache @types/expect@https://registry.npmjs.org/@types/expect/-/expect-1.20.4.tgz 0ms (cache hit)
+272 http cache @types/react-dom@https://registry.npmjs.org/@types/react-dom/-/react-dom-19.1.9.tgz 0ms (cache hit)
+273 http cache @types/react@https://registry.npmjs.org/@types/react/-/react-19.1.12.tgz 0ms (cache hit)
+274 http cache @colors/colors@https://registry.npmjs.org/@colors/colors/-/colors-1.6.0.tgz 0ms (cache hit)
+275 silly tarball no local data for fn.name@https://registry.npmjs.org/fn.name/-/fn.name-1.1.0.tgz. Extracting by manifest.
+276 silly tarball no local data for @types/triple-beam@https://registry.npmjs.org/@types/triple-beam/-/triple-beam-1.3.5.tgz. Extracting by manifest.
+277 silly tarball no local data for fecha@https://registry.npmjs.org/fecha/-/fecha-4.2.3.tgz. Extracting by manifest.
+278 silly tarball no local data for color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz. Extracting by manifest.
+279 silly tarball no local data for color-convert@https://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz. Extracting by manifest.
+280 silly tarball no local data for text-hex@https://registry.npmjs.org/text-hex/-/text-hex-1.0.0.tgz. Extracting by manifest.
+281 silly tarball no local data for color@https://registry.npmjs.org/color/-/color-3.2.1.tgz. Extracting by manifest.
+282 silly tarball no local data for kuler@https://registry.npmjs.org/kuler/-/kuler-2.0.0.tgz. Extracting by manifest.
+283 silly tarball no local data for enabled@https://registry.npmjs.org/enabled/-/enabled-2.0.0.tgz. Extracting by manifest.
+284 silly tarball no local data for colorspace@https://registry.npmjs.org/colorspace/-/colorspace-1.1.4.tgz. Extracting by manifest.
+285 silly tarball no local data for winston-transport@https://registry.npmjs.org/winston-transport/-/winston-transport-4.9.0.tgz. Extracting by manifest.
+286 silly tarball no local data for stack-trace@https://registry.npmjs.org/stack-trace/-/stack-trace-0.0.10.tgz. Extracting by manifest.
+287 silly tarball no local data for triple-beam@https://registry.npmjs.org/triple-beam/-/triple-beam-1.4.1.tgz. Extracting by manifest.
+288 silly tarball no local data for safe-stable-stringify@https://registry.npmjs.org/safe-stable-stringify/-/safe-stable-stringify-2.5.0.tgz. Extracting by manifest.
+289 silly tarball no local data for logform@https://registry.npmjs.org/logform/-/logform-2.7.0.tgz. Extracting by manifest.
+290 silly tarball no local data for is-stream@https://registry.npmjs.org/is-stream/-/is-stream-2.0.1.tgz. Extracting by manifest.
+291 silly tarball no local data for one-time@https://registry.npmjs.org/one-time/-/one-time-1.0.0.tgz. Extracting by manifest.
+292 silly tarball no local data for async@https://registry.npmjs.org/async/-/async-3.2.6.tgz. Extracting by manifest.
+293 silly tarball no local data for @dabh/diagnostics@https://registry.npmjs.org/@dabh/diagnostics/-/diagnostics-2.0.3.tgz. Extracting by manifest.
+294 silly tarball no local data for winston@https://registry.npmjs.org/winston/-/winston-3.17.0.tgz. Extracting by manifest.
+295 silly tarball no local data for @types/vinyl@https://registry.npmjs.org/@types/vinyl/-/vinyl-2.0.12.tgz. Extracting by manifest.
+296 silly tarball no local data for @types/svg-sprite@https://registry.npmjs.org/@types/svg-sprite/-/svg-sprite-0.0.39.tgz. Extracting by manifest.
+297 silly tarball no local data for @types/opentype.js@https://registry.npmjs.org/@types/opentype.js/-/opentype.js-1.3.8.tgz. Extracting by manifest.
+298 silly tarball no local data for @types/expect@https://registry.npmjs.org/@types/expect/-/expect-1.20.4.tgz. Extracting by manifest.
+299 silly tarball no local data for @types/react-dom@https://registry.npmjs.org/@types/react-dom/-/react-dom-19.1.9.tgz. Extracting by manifest.
+300 silly tarball no local data for @types/react@https://registry.npmjs.org/@types/react/-/react-19.1.12.tgz. Extracting by manifest.
+301 silly tarball no local data for @colors/colors@https://registry.npmjs.org/@colors/colors/-/colors-1.6.0.tgz. Extracting by manifest.
+302 http fetch GET 200 https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz 39ms (cache miss)
+303 http fetch GET 200 https://registry.npmjs.org/text-hex/-/text-hex-1.0.0.tgz 38ms (cache miss)
+304 http fetch GET 200 https://registry.npmjs.org/kuler/-/kuler-2.0.0.tgz 43ms (cache miss)
+305 http fetch GET 200 https://registry.npmjs.org/fn.name/-/fn.name-1.1.0.tgz 54ms (cache miss)
+306 http fetch GET 200 https://registry.npmjs.org/color/-/color-3.2.1.tgz 55ms (cache miss)
+307 http fetch GET 200 https://registry.npmjs.org/@types/triple-beam/-/triple-beam-1.3.5.tgz 56ms (cache miss)
+308 http fetch GET 200 https://registry.npmjs.org/fecha/-/fecha-4.2.3.tgz 57ms (cache miss)
+309 http fetch GET 200 https://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz 68ms (cache miss)
+310 http fetch GET 200 https://registry.npmjs.org/one-time/-/one-time-1.0.0.tgz 80ms (cache miss)
+311 http fetch GET 200 https://registry.npmjs.org/is-stream/-/is-stream-2.0.1.tgz 80ms (cache miss)
+312 http fetch GET 200 https://registry.npmjs.org/logform/-/logform-2.7.0.tgz 92ms (cache miss)
+313 http fetch GET 200 https://registry.npmjs.org/winston/-/winston-3.17.0.tgz 102ms (cache miss)
+314 http fetch GET 200 https://registry.npmjs.org/enabled/-/enabled-2.0.0.tgz 109ms (cache miss)
+315 http fetch GET 200 https://registry.npmjs.org/triple-beam/-/triple-beam-1.4.1.tgz 108ms (cache miss)
+316 http fetch GET 200 https://registry.npmjs.org/@dabh/diagnostics/-/diagnostics-2.0.3.tgz 110ms (cache miss)
+317 http fetch GET 200 https://registry.npmjs.org/winston-transport/-/winston-transport-4.9.0.tgz 112ms (cache miss)
+318 http fetch GET 200 https://registry.npmjs.org/stack-trace/-/stack-trace-0.0.10.tgz 119ms (cache miss)
+319 http fetch GET 200 https://registry.npmjs.org/safe-stable-stringify/-/safe-stable-stringify-2.5.0.tgz 127ms (cache miss)
+320 http fetch GET 200 https://registry.npmjs.org/async/-/async-3.2.6.tgz 129ms (cache miss)
+321 http fetch GET 200 https://registry.npmjs.org/@types/vinyl/-/vinyl-2.0.12.tgz 148ms (cache miss)
+322 http fetch GET 200 https://registry.npmjs.org/@types/react/-/react-19.1.12.tgz 148ms (cache miss)
+323 http fetch GET 200 https://registry.npmjs.org/colorspace/-/colorspace-1.1.4.tgz 158ms (cache miss)
+324 http fetch GET 200 https://registry.npmjs.org/@types/expect/-/expect-1.20.4.tgz 165ms (cache miss)
+325 http fetch GET 200 https://registry.npmjs.org/@colors/colors/-/colors-1.6.0.tgz 167ms (cache miss)
+326 http fetch GET 200 https://registry.npmjs.org/@types/react-dom/-/react-dom-19.1.9.tgz 187ms (cache miss)
+327 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 246ms
+328 silly audit report {}
+329 http fetch GET 200 https://registry.npmjs.org/@types/svg-sprite/-/svg-sprite-0.0.39.tgz 707ms (cache miss)
+330 http fetch GET 200 https://registry.npmjs.org/@types/opentype.js/-/opentype.js-1.3.8.tgz 768ms (cache miss)
+331 silly ADD node_modules/safe-buffer
+332 silly ADD node_modules/is-arrayish
+333 silly ADD node_modules/util-deprecate
+334 silly ADD node_modules/string_decoder
+335 silly ADD node_modules/inherits
+336 silly ADD node_modules/fn.name
+337 silly ADD node_modules/ms
+338 silly ADD node_modules/fecha
+339 silly ADD node_modules/@types/triple-beam
+340 silly ADD node_modules/simple-swizzle
+341 silly ADD node_modules/color-name
+342 silly ADD node_modules/color-string
+343 silly ADD node_modules/color-convert
+344 silly ADD node_modules/text-hex
+345 silly ADD node_modules/color
+346 silly ADD node_modules/kuler
+347 silly ADD node_modules/enabled
+348 silly ADD node_modules/colorspace
+349 silly ADD node_modules/winston-transport
+350 silly ADD node_modules/triple-beam
+351 silly ADD node_modules/stack-trace
+352 silly ADD node_modules/safe-stable-stringify
+353 silly ADD node_modules/readable-stream
+354 silly ADD node_modules/one-time
+355 silly ADD node_modules/logform
+356 silly ADD node_modules/is-stream
+357 silly ADD node_modules/async
+358 silly ADD node_modules/@dabh/diagnostics
+359 silly ADD node_modules/@colors/colors
+360 silly ADD node_modules/@types/expect
+361 silly ADD node_modules/winston
+362 silly ADD node_modules/@types/vinyl
+363 silly ADD node_modules/@types/svg-sprite
+364 silly ADD node_modules/@types/opentype.js
+365 silly CHANGE node_modules/@types/react-dom
+366 silly CHANGE node_modules/@types/react
+367 verbose cwd /Users/shkelqimkajtazaj/Library/Caches/typescript/5.8
+368 verbose os Darwin 24.6.0
+369 verbose node v24.5.0
+370 verbose npm  v11.5.1
+371 verbose exit 0
+372 info ok

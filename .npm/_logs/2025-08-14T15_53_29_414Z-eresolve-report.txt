@@ -1,0 +1,30 @@
+'Log files:
+/Users/shkelqimkajtazaj/.npm/_logs/2025-08-14T15_53_29_414Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: @vitejs/plugin-react@4.3.4
+Found: vite@7.1.2
+node_modules/vite
+  dev vite@"^7.1.2" from the root project
+  peer vite@">=4.1.1" from @dhiwise/component-tagger@1.0.10
+  node_modules/@dhiwise/component-tagger
+    @dhiwise/component-tagger@"^1.0.10" from the root project
+  peer vite@">2.0.0-0" from vite-tsconfig-paths@3.6.0
+  node_modules/vite-tsconfig-paths
+    dev vite-tsconfig-paths@"3.6.0" from the root project
+
+Could not resolve dependency:
+peer vite@"^4.2.0 || ^5.0.0 || ^6.0.0" from @vitejs/plugin-react@4.3.4
+node_modules/@vitejs/plugin-react
+  dev @vitejs/plugin-react@"4.3.4" from the root project
+
+Conflicting peer dependency: vite@6.3.5
+node_modules/vite
+  peer vite@"^4.2.0 || ^5.0.0 || ^6.0.0" from @vitejs/plugin-react@4.3.4
+  node_modules/@vitejs/plugin-react
+    dev @vitejs/plugin-react@"4.3.4" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

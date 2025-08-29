@@ -1,0 +1,18 @@
+'Log files:
+/Users/shkelqimkajtazaj/.npm/_logs/2025-08-29T15_31_37_146Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: undefined@undefined
+Found: @types/chai@5.2.2
+node_modules/@types/chai
+  dev @types/chai@"5.2.2" from the root project
+
+Could not resolve dependency:
+peer @types/chai@"<5.2.0" from @types/chai-subset@1.3.6
+node_modules/@types/chai-subset
+  dev @types/chai-subset@"1.3.6" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

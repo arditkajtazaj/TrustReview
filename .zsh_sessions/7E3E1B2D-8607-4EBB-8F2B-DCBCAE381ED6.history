@@ -1,0 +1,428 @@
+pwd\
+
+git rev-parse --show-toplevel\
+
+git rev-parse --show-toplevel\
+
+git rev-parse --show-toplevel\
+
+git rev-parse --show-toplevel\
+
+git rev-parse --show-toplevel\
+
+git rev-parse --show-toplevel\
+
+git rev-parse --show-toplevel\
+
+git rev-parse --show-toplevel
+git rev-parse --show-toplevel\
+
+git rev-parse --show-toplevelcd
+cd
+cd
+pwd
+ls
+Linkshield
+cd Linkshield
+ls -a\
+
+cd..
+cd ..
+ls
+rm -rf Linkshield\
+
+rm -rf .git\
+
+git
+npm install
+npm init -y\
+
+# Download and install nvm:\
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash\
+\
+# in lieu of restarting the shell\
+\. "$HOME/.nvm/nvm.sh"\
+\
+# Download and install Node.js:\
+nvm install 22\
+\
+# Verify the Node.js version:\
+node -v # Should print "v22.18.0".\
+nvm current # Should print "v22.18.0".\
+\
+# Verify npm version:\
+npm -v # Should print "10.9.3".\
+
+cd downloads
+ls
+download.png
+cd download.png
+ls
+ls download.png
+/Users/shkelqimkajtazaj/Downloads/download.png 
+bash
+node backend/server.js
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+$ brew install wget\
+
+brew install wget
+cd /opt/homebrew
+find Cellar
+Cellar/wget/1.16.1\
+Cellar/wget/1.16.1/bin/wget\
+Cellar/wget/1.16.1/share/man/man1/wget.1\
+
+$ find Cellar\
+Cellar/wget/1.16.1\
+Cellar/wget/1.16.1/bin/wget\
+Cellar/wget/1.16.1/share/man/man1/wget.1
+find Cellar\
+Cellar/wget/1.16.1\
+Cellar/wget/1.16.1/bin/wget\
+Cellar/wget/1.16.1/share/man/man1/wget.1\
+
+ls -l bin\
+bin/wget -> ../Cellar/wget/1.16.1/bin/wget
+brew create https://foo.com/foo-1.0.tgz\
+Created /opt/homebrew/Library/Taps/homebrew/homebrew-core/Formula/foo.rb
+brew tap mongodb/brew\
+
+brew install mongodb-community\
+
+brew install mongodb-community\
+
+brew services start mongodb-community\
+
+brew services list\
+
+mongosh\
+
+npm run
+npm start
+docker compose up -d db
+node backend/server.js
+node
+brew services start mongodb-community
+brew services start mongodb-community
+cd backend\
+node server.js
+npm install
+npm install
+npm start
+npm audit fix --force
+npm run
+npm start
+cd /Users/shkelqimkajtazaj/Downloads/glasstask/backend
+npm install
+npm starrt
+npm start
+npm start
+PORT=5001 npm start
+npmstart
+npm start
+npm
+npm install'
+brew services start mongodb-community
+npm start
+npm run dev
+npm start
+lsof -i :5000\
+
+kill -9 <PID>\
+
+kill -9 <PID>\
+
+kill -9 <PID>\
+
+kill -9 <PID>\
+
+kill -9 $(lsof -t -i :5000)\
+
+kill -9 15038\
+
+npm start
+npm start
+npm start
+localhost:27017
+npm start
+lsof -i :5000,4028
+kill 14607 15540
+npm start
+lsof -i :5000,4028
+kill 16093
+cd backend && npm start
+npm run dev
+npm start
+npm start
+cd backend && npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm install
+npm install --legacy-peer-deps
+npm start
+npm install
+npm start
+npm start
+DEBUG=vite:* npm start
+lsof -i :3030 | grep LISTEN | awk '{print $2}' | xargs kill -9
+npm start
+cd backend && npm start
+npm start
+curl -I http://localhost:8080/api/auth/login
+curl -I http://localhost:8080/api/auth/register
+curl -I http://localhost:8080/
+ls backend/routes
+ls backend/models
+cat backend/server.js | head -40
+cat backend/routes/auth.js | head -40
+npm start
+lsof -i :3030
+kill -9 <PID>
+npm start
+copilot-debug npm start
+lsof -i :3030
+kill -9 18766
+npm start
+kill -9 18766
+cd backend && npm start
+kill -9 18766
+kill -9 18766
+cd backend && npm start
+cd backend && npm start
+npm start
+curl -I http://localhost:3030/signin
+curl -I http://localhost:3030/api/auth/login
+curl -I http://localhost:8080/api/auth/login
+curl -X POST http://localhost:8080/api/auth/login -H 'Content-Type: application/json' -d '{"email":"test@test.com","password":"test"}'
+curl -X POST http://localhost:8080/api/auth/register -H 'Content-Type: application/json' -d '{"username":"testuser","email":"test@test.com","password":"test"}'
+curl -X POST http://localhost:8080/api/auth/login -H 'Content-Type: application/json' -d '{"email":"test@test.com","password":"test"}'
+curl -I http://localhost:3030/signup
+curl -I http://localhost:3030/task-dashboard
+pkill -f server.js || pkill -f nodemon; npm run dev
+npm run start
+lsof -i :3030 | grep LISTEN
+kill 20908
+npm run start
+npm run start --prefix backend
+npm run start --prefix backend
+npm run start --prefix backend
+npm run start --prefix backend
+npm run dev
+npm run start
+npm install nodemailer
+npm install nodemailer --force --prefix backend
+npm run start --prefix backend
+npm run start --prefix backend
+npm run start --prefix backend
+npm run start --prefix backend
+npm run start --prefix backend
+npm run start --prefix backend
+npm run start --prefix backend
+npm run start
+lsof -i :8080 | grep LISTEN
+kill 24799
+lsof -i :8080 | grep LISTEN
+kill 25426
+curl -X POST http://localhost:8080/api/auth/send-code -H "Content-Type: application/json" -d '{"email":"nationofaura@gmail.com"}'
+curl -X POST http://localhost:3030/api/auth/send-code -H "Content-Type: application/json" -d '{"email":"nationofaura@gmail.com"}'
+npm run start --prefix backend
+npm run start --prefix backend
+npm run start --prefix backend
+npm run start --prefix backend
+npm run start --prefix backend
+npm run start --prefix backend
+npm run start
+npm run dev
+npm start
+lsof -i :3030 | grep LISTEN
+ps aux | grep node
+lsof -i :8080 | grep LISTEN
+kill -9 27786
+npm start --prefix backend
+node server.js
+npm start
+npm start
+lsof -i :8080 | grep LISTEN
+curl -I http://localhost:8080/api/auth/login
+curl -I http://localhost:8080/api/auth/send-code
+ls /Users/shkelqimkajtazaj/Downloads/glasstask/backend
+curl http://localhost:8080/api/auth/login
+npm 
+npm run
+npm start
+npm
+npm start
+curl -X POST http://localhost:8080/api/auth/send-code -H 'Content-Type: application/json' -d '{"email":"test@example.com"}'
+mongo glasstask --eval 'db.users.getIndexes()'
+npm install --global mongodb-community-shell || brew install mongodb-community@6.0
+brew link --overwrite mongodb-community@6.0 && mongosh --eval 'db.users.dropIndexes()' && mongosh --eval 'db.users.drop()'
+mongosh --eval 'show dbs; use glasstask; show collections; db.users.find().pretty(); db.users.stats(); db.users.getIndexes();'
+mongosh --eval 'show dbs; use glasstask; show collections; db.getCollection("users").find().pretty(); db.getCollection("users").stats(); db.getCollection("users").getIndexes();'
+npm run start --prefix backend
+lsof -i :8080 | grep LISTEN
+kill 29787
+npm run start --prefix backend
+npm start
+npm run start --prefix backend
+git config --global user.name "arditkajtazaj"\
+git config --global user.email kajtazajardit@gmail.com\
+
+git config --global user.name "arditkajtazaj"\
+git config --global user.email kajtazajardit@gmail.com\
+
+npm start
+npm run
+npm start
+npm start
+npm start\\
+npm run
+npm start
+git remote add origin https://github.com/arditkajtazaj/glass-task.git
+git remote add origin https://github.com/arditkajtazaj/glass-task.git
+git remote add origin https://github.com/arditkajtazaj/glass-task.git
+git remote add origin https://github.com/arditkajtazaj/glass-task.git
+v
+v
+echo "# glass-task" >> README.md\
+git init\
+git add README.md\
+git commit -m "first commit"\
+git branch -M main\
+git remote add origin https://github.com/arditkajtazaj/glass-task.git\
+git push -u origin main
+echo "# glass-task" >> README.md\
+git init\
+git add README.md\
+git commit -m "first commit"\
+git branch -M main\
+git remote add origin https://github.com/arditkajtazaj/glass-task.git\
+git push -u origin main
+cd ~/Downloads/glasstask\
+git status\
+
+cd ~/Downloads/glasstask\
+git status\
+
+cd ~/Downloads/glasstask\
+git status\
+
+git add .\
+git commit -m "your commit message"\
+git push origin main\
+
+cd ~/Downloads/glasstask\
+
+cd ~/Downloads/glasstask\
+
+ls -a\
+
+git remote add origin https://github.com/arditkajtazaj/glass-task
+git remote -v\
+
+git branch -M main\
+git push -u origin main\
+
+git push\
+
+git pull origin main --rebase\
+
+git push origin main\
+
+git push origin main --force\
+
+git push\
+
+git status\
+
+cd ~/Downloads/glasstask
+ls
+git checkout --ours README.md
+git add README.md
+git rebase --continue
+cd
+ls
+download
+cd download
+cd downloads
+ls
+cd glasstask
+ls
+git rebase --continue\
+
+cd downloads 
+cd glasstask
+git config --global core.editor "code --wait"\
+
+git push origin main\
+
+git config --global core.editor "code --wait"\
+
+cd downloads
+cd glasstask
+ls
+https://www.google.com/search?q=how+to+run+backend+together+with+frontende+on+github+and+launch+it+at+free+host&rlz=1C5CHFA_enXK1174XK1175&oq=how+to+run+backend+together+with+frontende+on+github+and+launch+it+at+free+host&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE5MDUzajBqNKgCCLACAfEFMEUiyRWAuMk&sourceid=chrome&ie=UTF-8
+npm init -y
+{\
+  "name": "my-app",\
+  "private": true,\
+  "workspaces": [\
+    "frontend",\
+    "backend"\
+  ],\
+  "scripts": {\
+    "start": "concurrently \"npm run dev --workspace frontend\" \"npm run dev --workspace backend\""\
+  },\
+  "devDependencies": {\
+    "concurrently": "^8.2.0"\
+  }\
+}\
+
+npm install --save-dev concurrently\
+
+npm install --save-dev concurrently\
+
+npm install --legacy-peer-deps\
+
+npm install --force\
+
+npm init -y\
+
+npm install --save-dev concurrently\
+
+npm install --legacy-peer-deps\
+
+nano package.json\
+
+cd frontend\
+nano package.json\
+
+cd ../backend\
+npm install --save-dev nodemon\
+nano package.json\
+
+cd ..\
+npm start\
+
+cd ..\
+npm start\
+
+cd
+cd downloads
+cd glasstask
+nano package.json\
+
+cd downloads
+ls
+ls
+cd trustreview
+git remote add origin https://github.com/arditkajtazaj/TrustReview.git
+git branch -M main\
+
+git push -u origin main

@@ -1,0 +1,171 @@
+0 verbose cli /opt/homebrew/Cellar/node/24.5.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.5.1
+2 info using node@v24.5.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/shkelqimkajtazaj/Library/Caches/typescript/5.8/.npmrc
+5 silly config load:file:/Users/shkelqimkajtazaj/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm install types-registry@latest
+8 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+9 verbose logfile logs-max:10 dir:/Users/shkelqimkajtazaj/.npm/_logs/2025-08-29T15_31_17_595Z-
+10 verbose logfile /Users/shkelqimkajtazaj/.npm/_logs/2025-08-29T15_31_17_595Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly logfile done cleaning log files
+14 silly packumentCache corgi:https://registry.npmjs.org/types-registry cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/types-registry 201ms (cache revalidated)
+16 silly packumentCache corgi:https://registry.npmjs.org/types-registry set size:606212 disposed:false
+17 silly idealTree buildDeps
+18 silly fetch manifest types-registry@0.1.735
+19 silly packumentCache full:https://registry.npmjs.org/types-registry cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/types-registry 36ms (cache revalidated)
+21 silly packumentCache full:https://registry.npmjs.org/types-registry set size:1292707 disposed:false
+22 silly placeDep ROOT types-registry@0.1.735 REPLACE for:  want: 0.1.735
+23 silly reify moves {}
+24 silly audit bulk request {
+24 silly audit   '@aws-crypto/sha256-browser': [ '5.2.0' ],
+24 silly audit   '@smithy/is-array-buffer': [ '2.2.0', '4.0.0' ],
+24 silly audit   '@smithy/util-buffer-from': [ '2.2.0', '4.0.0' ],
+24 silly audit   '@smithy/util-utf8': [ '2.3.0', '4.0.0' ],
+24 silly audit   '@aws-crypto/sha256-js': [ '5.2.0' ],
+24 silly audit   '@aws-crypto/supports-web-crypto': [ '5.2.0' ],
+24 silly audit   '@aws-crypto/util': [ '5.2.0' ],
+24 silly audit   '@aws-sdk/client-sesv2': [ '3.864.0' ],
+24 silly audit   '@aws-sdk/client-sso': [ '3.864.0' ],
+24 silly audit   '@aws-sdk/core': [ '3.864.0' ],
+24 silly audit   '@aws-sdk/credential-provider-env': [ '3.864.0' ],
+24 silly audit   '@aws-sdk/credential-provider-http': [ '3.864.0' ],
+24 silly audit   '@aws-sdk/credential-provider-ini': [ '3.864.0' ],
+24 silly audit   '@aws-sdk/credential-provider-node': [ '3.864.0' ],
+24 silly audit   '@aws-sdk/credential-provider-process': [ '3.864.0' ],
+24 silly audit   '@aws-sdk/credential-provider-sso': [ '3.864.0' ],
+24 silly audit   '@aws-sdk/credential-provider-web-identity': [ '3.864.0' ],
+24 silly audit   '@aws-sdk/middleware-host-header': [ '3.862.0' ],
+24 silly audit   '@aws-sdk/middleware-logger': [ '3.862.0' ],
+24 silly audit   '@aws-sdk/middleware-recursion-detection': [ '3.862.0' ],
+24 silly audit   '@aws-sdk/middleware-sdk-s3': [ '3.864.0' ],
+24 silly audit   '@aws-sdk/middleware-user-agent': [ '3.864.0' ],
+24 silly audit   '@aws-sdk/nested-clients': [ '3.864.0' ],
+24 silly audit   '@aws-sdk/region-config-resolver': [ '3.862.0' ],
+24 silly audit   '@aws-sdk/signature-v4-multi-region': [ '3.864.0' ],
+24 silly audit   '@aws-sdk/token-providers': [ '3.864.0' ],
+24 silly audit   '@aws-sdk/types': [ '3.862.0' ],
+24 silly audit   '@aws-sdk/util-arn-parser': [ '3.804.0' ],
+24 silly audit   '@aws-sdk/util-endpoints': [ '3.862.0' ],
+24 silly audit   '@aws-sdk/util-locate-window': [ '3.804.0' ],
+24 silly audit   '@aws-sdk/util-user-agent-browser': [ '3.862.0' ],
+24 silly audit   '@aws-sdk/util-user-agent-node': [ '3.864.0' ],
+24 silly audit   '@aws-sdk/xml-builder': [ '3.862.0' ],
+24 silly audit   '@smithy/abort-controller': [ '4.0.5' ],
+24 silly audit   '@smithy/config-resolver': [ '4.1.5' ],
+24 silly audit   '@smithy/core': [ '3.8.0' ],
+24 silly audit   '@smithy/credential-provider-imds': [ '4.0.7' ],
+24 silly audit   '@smithy/fetch-http-handler': [ '5.1.1' ],
+24 silly audit   '@smithy/hash-node': [ '4.0.5' ],
+24 silly audit   '@smithy/invalid-dependency': [ '4.0.5' ],
+24 silly audit   '@smithy/middleware-content-length': [ '4.0.5' ],
+24 silly audit   '@smithy/middleware-endpoint': [ '4.1.18' ],
+24 silly audit   '@smithy/middleware-retry': [ '4.1.19' ],
+24 silly audit   '@smithy/middleware-serde': [ '4.0.9' ],
+24 silly audit   '@smithy/middleware-stack': [ '4.0.5' ],
+24 silly audit   '@smithy/node-config-provider': [ '4.1.4' ],
+24 silly audit   '@smithy/node-http-handler': [ '4.1.1' ],
+24 silly audit   '@smithy/property-provider': [ '4.0.5' ],
+24 silly audit   '@smithy/protocol-http': [ '5.1.3' ],
+24 silly audit   '@smithy/querystring-builder': [ '4.0.5' ],
+24 silly audit   '@smithy/querystring-parser': [ '4.0.5' ],
+24 silly audit   '@smithy/service-error-classification': [ '4.0.7' ],
+24 silly audit   '@smithy/shared-ini-file-loader': [ '4.0.5' ],
+24 silly audit   '@smithy/signature-v4': [ '5.1.3' ],
+24 silly audit   '@smithy/smithy-client': [ '4.4.10' ],
+24 silly audit   '@smithy/types': [ '4.3.2' ],
+24 silly audit   '@smithy/url-parser': [ '4.0.5' ],
+24 silly audit   '@smithy/util-base64': [ '4.0.0' ],
+24 silly audit   '@smithy/util-body-length-browser': [ '4.0.0' ],
+24 silly audit   '@smithy/util-body-length-node': [ '4.0.0' ],
+24 silly audit   '@smithy/util-config-provider': [ '4.0.0' ],
+24 silly audit   '@smithy/util-defaults-mode-browser': [ '4.0.26' ],
+24 silly audit   '@smithy/util-defaults-mode-node': [ '4.0.26' ],
+24 silly audit   '@smithy/util-endpoints': [ '3.0.7' ],
+24 silly audit   '@smithy/util-hex-encoding': [ '4.0.0' ],
+24 silly audit   '@smithy/util-middleware': [ '4.0.5' ],
+24 silly audit   '@smithy/util-retry': [ '4.0.7' ],
+24 silly audit   '@smithy/util-stream': [ '4.2.4' ],
+24 silly audit   '@smithy/util-uri-escape': [ '4.0.0' ],
+24 silly audit   '@types/bcrypt': [ '6.0.0' ],
+24 silly audit   '@types/body-parser': [ '1.19.6' ],
+24 silly audit   '@types/connect': [ '3.4.38' ],
+24 silly audit   '@types/cors': [ '2.8.19' ],
+24 silly audit   '@types/d3': [ '7.4.3' ],
+24 silly audit   '@types/d3-array': [ '3.2.1' ],
+24 silly audit   '@types/d3-axis': [ '3.0.6' ],
+24 silly audit   '@types/d3-brush': [ '3.0.6' ],
+24 silly audit   '@types/d3-chord': [ '3.0.6' ],
+24 silly audit   '@types/d3-color': [ '3.1.3' ],
+24 silly audit   '@types/d3-contour': [ '3.0.6' ],
+24 silly audit   '@types/d3-delaunay': [ '6.0.4' ],
+24 silly audit   '@types/d3-dispatch': [ '3.0.7' ],
+24 silly audit   '@types/d3-drag': [ '3.0.7' ],
+24 silly audit   '@types/d3-dsv': [ '3.0.7' ],
+24 silly audit   '@types/d3-ease': [ '3.0.2' ],
+24 silly audit   '@types/d3-fetch': [ '3.0.7' ],
+24 silly audit   '@types/d3-force': [ '3.0.10' ],
+24 silly audit   '@types/d3-format': [ '3.0.4' ],
+24 silly audit   '@types/d3-geo': [ '3.1.0' ],
+24 silly audit   '@types/d3-hierarchy': [ '3.1.7' ],
+24 silly audit   '@types/d3-interpolate': [ '3.0.4' ],
+24 silly audit   '@types/d3-path': [ '3.1.1' ],
+24 silly audit   '@types/d3-polygon': [ '3.0.2' ],
+24 silly audit   '@types/d3-quadtree': [ '3.0.6' ],
+24 silly audit   '@types/d3-random': [ '3.0.3' ],
+24 silly audit   '@types/d3-scale': [ '4.0.9' ],
+24 silly audit   '@types/d3-scale-chromatic': [ '3.1.0' ],
+24 silly audit   '@types/d3-selection': [ '3.0.11' ],
+24 silly audit   '@types/d3-shape': [ '3.1.7' ],
+24 silly audit   '@types/d3-time': [ '3.0.4' ],
+24 silly audit   '@types/d3-time-format': [ '4.0.3' ],
+24 silly audit   '@types/d3-timer': [ '3.0.2' ],
+24 silly audit   '@types/d3-transition': [ '3.0.9' ],
+24 silly audit   '@types/d3-zoom': [ '3.0.8' ],
+24 silly audit   '@types/estree': [ '1.0.8' ],
+24 silly audit   '@types/express': [ '5.0.3' ],
+24 silly audit   '@types/express-serve-static-core': [ '5.0.7' ],
+24 silly audit   '@types/geojson': [ '7946.0.16' ],
+24 silly audit   '@types/history': [ '4.7.11' ],
+24 silly audit   '@types/http-errors': [ '2.0.5' ],
+24 silly audit   '@types/jsonwebtoken': [ '9.0.10' ],
+24 silly audit   '@types/less': [ '3.0.8' ],
+24 silly audit   '@types/lodash': [ '4.17.20' ],
+24 silly audit   '@types/mime': [ '1.3.5' ],
+24 silly audit   '@types/ms': [ '2.1.0' ],
+24 silly audit   '@types/node': [ '24.2.1' ],
+24 silly audit   '@types/nodemailer': [ '7.0.1' ],
+24 silly audit   '@types/qs': [ '6.14.0' ],
+24 silly audit   '@types/range-parser': [ '1.2.7' ],
+24 silly audit   '@types/react': [ '19.1.11' ],
+24 silly audit   '@types/react-dom': [ '19.1.8' ],
+24 silly audit   '@types/react-helmet': [ '6.1.11' ],
+24 silly audit   '@types/react-router': [ '5.1.20' ],
+24 silly audit   '@types/react-router-dom': [ '5.3.3' ],
+24 silly audit   '@types/react-router-hash-link': [ '2.4.9' ],
+24 silly audit   '@types/send': [ '0.17.5' ],
+24 silly audit   '@types/serve-static': [ '1.15.8' ],
+24 silly audit   '@types/stylus': [ '0.48.43' ],
+24 silly audit   '@types/uuid': [ '9.0.8' ],
+24 silly audit   bowser: [ '2.12.0' ],
+24 silly audit   csstype: [ '3.1.3' ],
+24 silly audit   'fast-xml-parser': [ '5.2.5' ],
+24 silly audit   strnum: [ '2.1.1' ],
+24 silly audit   tslib: [ '2.8.1' ],
+24 silly audit   'undici-types': [ '7.10.0' ],
+24 silly audit   uuid: [ '9.0.1' ],
+24 silly audit   'types-registry': [ '0.1.735' ]
+24 silly audit }
+25 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 240ms
+26 silly audit report {}
+27 verbose cwd /Users/shkelqimkajtazaj/Library/Caches/typescript/5.8
+28 verbose os Darwin 24.6.0
+29 verbose node v24.5.0
+30 verbose npm  v11.5.1
+31 verbose exit 0
+32 info ok
